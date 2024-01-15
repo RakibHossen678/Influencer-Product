@@ -247,7 +247,31 @@ nav ul li a img {
     max-width: 500px;
     margin-bottom: 10px;
 }
-
+footer{
+    background: #0A0826;
+    height: 239px;
+}
+.footer_content{
+    text-align: center;
+   padding-top: 50px;
+   color: #FFF;
+}
+.footer_content h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footer_content p{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 15px;
+font-weight: 300;
+line-height: 24px;
+margin-bottom: 10px;
+}
+.footer_content div a{
+    color: white;
+    padding-right: 10px;
+}
 
 
 
