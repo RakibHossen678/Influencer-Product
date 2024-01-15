@@ -218,6 +218,36 @@ nav ul li a img {
     padding-left: 10px;
 }
 
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 50px 160px;
+}
+
+.feature_content {
+    max-width: 700px;
+}
+
+.feature_content h1 {
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.feature_content p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -278,9 +308,18 @@ nav ul li a img {
         margin: 20px;
 
     }
-    .see{
+
+    .see {
         margin-top: 20px;
-        
+
+    }
+    .feature{
+        flex-direction: column-reverse;
+        margin: 20px;
+        text-align: center;
+    }
+    .feature_content{
+        margin-bottom: 20px;
     }
 }
 
@@ -306,5 +345,22 @@ nav ul li a img {
     .Journey_content {
         text-align: center;
         margin-left: 20px;
+    }
+
+    .brand {
+
+        margin: 10px;
+        gap: 50px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+
+    }
+
+    .camera {
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+
     }
 }
